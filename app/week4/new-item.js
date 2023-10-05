@@ -33,7 +33,11 @@ export default function NewItem() {
                     <option value="Dairy">Dairy</option>
                     <option value="Bakery">Bakery</option>
                     <option value="Meat">Meat</option>
-                    <option value="Frozen">Frozen</option>
+                    <option value="Frozen">Frozen Foods</option>
+                    <option value="Canned">Canned Goods</option>
+                    <option value="Beverages">Beverages</option>
+                    <option value="Snacks">Snacks</option>
+                    <option value="Other">Other</option>
                 </select>
                 <br /><br />
                 <button type="submit">Add Item</button>
