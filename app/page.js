@@ -8,7 +8,8 @@ export default function Home() {
             <StudentInfo />
             <br/>
             <Link href="week2">Week 2</Link><br/>
-            <Link href="week3">Week 3</Link>
+            <Link href="week3">Week 3</Link><br/>
+            <Link href="week4">Week 4</Link>
         </>
     );
 }
