@@ -20,7 +20,7 @@ export default function NewItem() {
 
     return (
         <main>
-            <form onSubmit={handleSubmit} className="flex justify-center">
+            <form onSubmit={handleSubmit}>
                 <div >
                     <div>
                         <label htmlFor="name">Name: </label>
