@@ -19,8 +19,11 @@ export default function Page() {
         <div className="flex flex-col items-center">
             <HomeButton />
             <h1 className="text-4xl font-bold">Shopping List</h1>
-            <NewItem onAddItem={handleAddItem} />
-            <ItemList itemsData={items} />
+
+            <div className="flex justify-center space-x-16 mt-8">
+                <NewItem onAddItem={handleAddItem} />
+                <ItemList itemsData={items} />
+            </div>
         </div>
     );
 }
